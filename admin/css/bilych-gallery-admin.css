@@ -1,0 +1,20 @@
+/**
+ * Admin styles
+ */
+
+.bilych-gallery-radio > input{
+  visibility: hidden;
+  position: absolute;
+}
+.bilych-gallery-radio > input + img{
+  cursor: pointer;
+  border: 6px solid transparent;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.bilych-gallery-radio > input:checked + img{
+  border: 6px solid #0074a2;
+  border-radius: 3px;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
